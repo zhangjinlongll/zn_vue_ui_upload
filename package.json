@@ -1,10 +1,10 @@
 {
   "name": "zn_vue_ui_upload",
-  "version": "0.1.0",
-  "private": true,
+  "version": "0.1.1",
+  "private": false,
   "scripts": {
     "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build",
+    "build": "vue-cli-service build --target lib --name zn_vue_ui_upload ./src/components/index.js",
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
@@ -42,5 +42,13 @@
   "browserslist": [
     "> 1%",
     "last 2 versions"
-  ]
+  ],
+  "description": "## Project setup ``` yarn install ```",
+  "main": "dist/zn_vue_ui_upload.umd.min.js",
+  "author": "",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zhangjinlongll/zn_vue_ui_upload.git"
+  }
 }
